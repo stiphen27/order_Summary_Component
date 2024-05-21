@@ -1,0 +1,103 @@
+html{
+    width: 100%;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-color:  hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+h1{
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+}
+.container{
+    background-color: white;
+    margin: 5% auto;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.person{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.text{
+    padding: 30px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.annualPlan{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0px 25px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+.plan{
+    display: flex;
+}
+.music{
+    max-width: 100%;
+    height: auto;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+    margin:  10px 10px 10px 0px;
+}
+.change{
+    color:   hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    margin: 10px 25px;
+    box-shadow: 0px 15px 8px 0px hsl(225, 100%, 94%);
+    font-weight: 700; 
+}
+.payment p{
+    padding: 15px;
+    color: hsl(225, 100%, 98%);
+}
+.cancel{
+    font-weight: 700;
+}
+
+.payment  :hover{
+    background-color:  hsl(224, 23%, 55%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cancel :hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+.change :hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+@media screen and (max-width:375px){
+    .container{
+        width: 95%;
+    }
+    .annualPlan{
+        margin: 0px 5px;
+    }
+    .payment{
+        margin: 0px 5px;
+    }
+}
